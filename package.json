@@ -1,0 +1,33 @@
+{
+  "name": "unofficial-wall-e",
+  "version": "1.0.3",
+  "description": "UnOfficial Wall-E's Source Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotMarx/UnOfficial-Wall-E.git"
+  },
+  "keywords": [
+    "Wall-E"
+  ],
+  "author": "NotMarx, Revolx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NotMarx/UnOfficial-Wall-E/issues"
+  },
+  "homepage": "https://github.com/NotMarx/UnOfficial-Wall-E#readme",
+  "dependencies": {
+    "get-data.id": "0.0.1",
+    "mathjs": "^8.1.0",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
+    "novelcovid": "^1.2.6",
+    "parse-ms": "^2.1.0",
+    "quick.db": "^7.1.3",
+    "random-discord": "^1.0.2-1",
+    "weather-js": "^2.0.0"
+  }
+}
