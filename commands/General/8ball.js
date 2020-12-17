@@ -26,9 +26,9 @@ class eightBallStyle extends Command {
             .addField(`${message.author.tag}'s Question:`, `${args.join(" ")}`)
             .addField("Wall-E's Opinion", `${Answer[randomAns]}`)
             .setColor("RANDOM")
-            return message.channel.send(eightBallEmbed)
-
             if(message.deletable) return message.delete()
+            return message.channel.send(eightBallEmbed)
+            
     }
 }
 
